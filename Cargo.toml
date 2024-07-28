@@ -1,0 +1,6 @@
+[package]
+name = "Subgroups_of_a_Product_of_Additive_Groups"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
