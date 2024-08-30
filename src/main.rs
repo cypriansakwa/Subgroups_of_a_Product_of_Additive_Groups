@@ -56,8 +56,8 @@ fn generate_all_subgroups_product(n: u64, m: u64) -> Vec<HashSet<(u64, u64)>> {
 }
 
 fn main() {
-    let n = 6; // Replace with the desired value of n
-    let m = 4; // Replace with the desired value of m
+    let n = 4; // Replace with the desired value of n
+    let m = 3; // Replace with the desired value of m
 
     let subgroups = generate_all_subgroups_product(n, m);
     println!("Subgroups of Z_{} x Z_{}:", n, m);
