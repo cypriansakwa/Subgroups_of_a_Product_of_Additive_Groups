@@ -1,5 +1,5 @@
 ## Overview
-This Rust program computes and displays all subgroups of the direct product of two cyclic groups, $\mathbb{Z}_n\times\mathbb{Z}_m$. $\mathbb{Z}_n$ and $\mathbb{Z}_m$ are the additive groups of integers modulo $n$ and $m$, respectively. To effectively produce subgroups, the program takes advantage of cyclic group structure.
+This Rust program computes and displays all subgroups of the direct product of two cyclic groups, $\mathbb{Z}_n\times\mathbb{Z}_m$. Here, $\mathbb{Z}_n$ and $\mathbb{Z}_m$ are the additive groups of integers modulo $n$ and $m$, respectively. To effectively produce subgroups, the program takes advantage of cyclic group structure.
 ## Features
 - **Divisors Calculation:** The program computes all divisors of a given number $n$, which are required to generate subgroups.
 -  **Subgroup Generation for $\mathbb{Z}_n$:** For each divisor, a corresponding subgroup of $\mathbb{Z}_n$ is generated using an appropriate generator.
